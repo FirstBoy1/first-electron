@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder"
+    "build": "electron-builder",
+    "watch": "electronmon ."
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
@@ -17,7 +18,8 @@
   },
   "devDependencies": {
     "electron": "^20.0.1",
-    "electron-builder": "^23.3.3"
+    "electron-builder": "^23.3.3",
+    "electronmon": "^2.0.2"
   },
   "build": {}
 }

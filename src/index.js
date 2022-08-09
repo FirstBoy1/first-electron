@@ -16,10 +16,6 @@ sequelize
       firstName: 'zeeshan',
       lastName: 'ahmad',
     })
-    console.log(newUser)
-    const users = await User.findAll()
-    users.forEach((user) => console.log(user.dataValues))
-    // console.log(users.map(user  => user.))
   })
   .catch((err) => {
     console.log(err)
@@ -37,7 +33,6 @@ const createWindow = () => {
   mainWindow.maximize()
 
   mainWindow.webContents.openDevTools()
-  mainWindowState.manage(mainWindow)
 }
 
 app.whenReady().then(() => {
